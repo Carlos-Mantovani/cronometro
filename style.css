@@ -1,0 +1,28 @@
+body {
+    background-color: #778899;
+}
+
+.container {
+    padding-top: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container p {
+    font-size: 64px;
+}
+
+.container button {
+    padding: 10px;
+    background-color: #FFD700;
+    font-size: 24px;
+    margin: 3px 10px;
+    border: 2px solid #FDFDFD;
+    border-radius: 10px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: #FFE700;
+}
+

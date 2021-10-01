@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <title>Cronometro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <p id="contagem">00:00</p>
-        <button onclick="começar()">Começar</button>
+        <div class="contagem">
+            <p id="horas">00</p>
+            <p>:</p>
+            <p id="minutos">00</p>
+            <p>:</p>
+            <p id="segundos">00</p>
+        </div>
+        <button onclick="comecar()" id="comecar">Começar</button>
         <button onclick="pausar()">Pausar</button>
         <button onclick="reiniciar()">Reiniciar</button>
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="script.js"></script>
 </html>

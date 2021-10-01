@@ -1,5 +1,6 @@
 body {
-    background-color: #778899;
+    background-color: #1E1E1E;
+    font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -23,6 +24,18 @@ body {
 
 .container button:hover {
     cursor: pointer;
-    background-color: #FFE700;
+    background-color: #FFC700;
 }
 
+.contagem {
+    padding: 10px;
+    border: 4px solid #AAAAAA;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+.contagem p{
+    display: inline;
+    color: #AAAAAA;
+}

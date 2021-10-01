@@ -3,7 +3,7 @@ var minutos = 0;
 var horas = 0;
 
 var cronometro;
-var tempo = 1000;
+var tempo = 10000;
 
 function comecar() {
     cronometro = setInterval(() => {
@@ -32,6 +32,10 @@ function comecar() {
             }else{
                 document.getElementById("horas").innerHTML = `${horas}`;
             }
+        }
+
+        if (horas >= 99){
+            clearInterval(cronometro);
         }
         
         console.log(segundos);

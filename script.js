@@ -3,7 +3,7 @@ var minutos = 0;
 var horas = 0;
 
 var cronometro;
-var tempo = 10000;
+var tempo = 1000;
 
 function comecar() {
     cronometro = setInterval(() => {
